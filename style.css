@@ -1,0 +1,163 @@
+
+/* timer*/ 
+
+output {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 375px;
+  left: 100px;
+}
+#start {
+
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+#stop {
+
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+#reset {
+
+  position: absolute;
+  top: 350px;
+  left: 200px;
+
+}
+
+/* check in*/ 
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+
+form #increase {
+   position: absolute;
+  left: 440px;
+  top: 810px;
+  width: 75px;
+  height:50px;
+
+}
+#increase:hover, #increase:focus {
+  background-color: #B1E0E8;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  background :#FADDD1 ;
+  position: absolute;
+  left: 520px;
+  top: 350px;
+  text-align: center;
+  border-radius:50%;
+  border-color: black;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* search bar*/ 
+.dropbtn {
+  position: absolute;
+  left: -550px;
+  top: -900px;
+  background-color: #F1F1F2;
+  color: black;
+  padding: 16px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+    line-height:10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #B1E0E8;
+}
+
+#myInput {
+
+  border-box: box-sizing;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  min-width: 335px;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+   position: absolute;
+  left: -550px;
+  top: -900px;
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 335px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
